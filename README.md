@@ -43,7 +43,7 @@ flutter run
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/Home.png" width="210" alt="home"/><div><sub>Home.png</sub></div></td>
+    <td align="center"><img src="screenshots/home.png" width="210" alt="home"/><div><sub>Home.png</sub></div></td>
     <td align="center"><img src="screenshots/create_team.png" width="210" alt="create_team"/><div><sub>create_team.png</sub></div></td>
     <td align="center"><img src="screenshots/create_player.png" width="210" alt="create_player"/><div><sub>create_player.png</sub></div></td>
     <td align="center"><img src="screenshots/manage_team_and_lineups.png" width="210" alt="manage_team_and_lineups"/><div><sub>manage_team_and_lineups.png</sub></div></td>
