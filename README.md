@@ -1,86 +1,101 @@
-# \# AFL Stats App (Flutter)
+# AFL Stats App (Flutter) 🏉
 
-# 
+[![Flutter](https://img.shields.io/badge/Flutter-Mobile-blue?logo=flutter)](#)
+[![Firebase](https://img.shields.io/badge/Firebase-Client-orange?logo=firebase)](#)
+[![Platforms](https://img.shields.io/badge/Platforms-Android%20%7C%20iOS-success)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-# A match statistics app to manage teams \& lineups, start matches, live-score events, review past matches, and compare players/teams.  
+A match statistics app to **manage teams & lineups**, **start/resume matches**, **live-score events**, review **past matches**, and **compare players/teams**.  
+Built with **Flutter** + **Firebase**.
 
-# Built with \*\*Flutter\*\* + \*\*Firebase\*\*.
+---
 
-# 
+## ✨ Features
+- 👥 Manage Teams & Lineups  
+- 🕹️ Start / Resume Match  
+- 📊 Live scoring & match details  
+- 🗂️ Past matches & results  
+- ⚖️ Compare Players & Teams  
+- 🕒 Optional 4-Quarter system
 
-# \## Features
+---
 
-# \- Manage Teams \& Lineups
+## 🚀 Getting Started
 
-# \- Start / Resume Match
+~~~bash
+# 1) Install deps
+flutter pub get
 
-# \- Live scoring \& match details
+# 2) (Recommended) Configure Firebase for your own project
+#    Generates lib/firebase_options.dart
+dart pub global activate flutterfire_cli
+flutterfire configure
 
-# \- Past matches \& results
+# 3) Run
+flutter run
+~~~
 
-# \- Compare Players \& Teams
+> **Security note:** Keep API keys **restricted** (by package/bundle ID & SHA-1) and only enable APIs you actually use.
 
-# \- Optional 4-Quarter system
+---
 
-# 
+## 📸 Screenshots (with filenames)
 
-# \## Screenshots
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/Home.png" width="210" alt="Home"/><div><sub>Home.png</sub></div></td>
+    <td align="center"><img src="screenshots/Create%20Team.png" width="210" alt="Create Team"/><div><sub>Create Team.png</sub></div></td>
+    <td align="center"><img src="screenshots/Create%20Player.png" width="210" alt="Create Player"/><div><sub>Create Player.png</sub></div></td>
+    <td align="center"><img src="screenshots/Manage%20Team%20%26%20Lineups.png" width="210" alt="Manage Team & Lineups"/><div><sub>Manage Team & Lineups.png</sub></div></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/Create%20Match.png" width="210" alt="Create Match"/><div><sub>Create Match.png</sub></div></td>
+    <td align="center"><img src="screenshots/Match%20Preview.png" width="210" alt="Match Preview"/><div><sub>Match Preview.png</sub></div></td>
+    <td align="center"><img src="screenshots/Match%20Details.png" width="210" alt="Match Details"/><div><sub>Match Details.png</sub></div></td>
+    <td align="center"><img src="screenshots/Match%20Completed.png" width="210" alt="Match Completed"/><div><sub>Match Completed.png</sub></div></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/Matches%20Result.png" width="210" alt="Matches Result"/><div><sub>Matches Result.png</sub></div></td>
+    <td align="center"><img src="screenshots/Recent%20Matches.png" width="210" alt="Recent Matches"/><div><sub>Recent Matches.png</sub></div></td>
+    <td align="center"><img src="screenshots/Compare%20Players%20%26%20Teams.png" width="210" alt="Compare Players & Teams"/><div><sub>Compare Players & Teams.png</sub></div></td>
+    <td align="center"><img src="screenshots/Teams%20Compersion.png" width="210" alt="Teams Compersion"/><div><sub>Teams Compersion.png</sub></div></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/Players%20Compersion.png" width="210" alt="Players Compersion"/><div><sub>Players Compersion.png</sub></div></td>
+    <td align="center"><img src="screenshots/4%20Quater%20System.png" width="210" alt="4 Quater System"/><div><sub>4 Quater System.png</sub></div></td>
+    <td align="center"><img src="screenshots/Add%20Profile%20Photo.png" width="210" alt="Add Profile Photo"/><div><sub>Add Profile Photo.png</sub></div></td>
+    <td align="center"><img src="screenshots/Delete%20Team.png" width="210" alt="Delete Team"/><div><sub>Delete Team.png</sub></div></td>
+  </tr>
+</table>
 
-# <p align="center">
+---
 
-# &nbsp; <img src="screenshots/Home.png" width="260"/>
+## 🎥 Demo Video
 
-# &nbsp; <img src="screenshots/Create%20Team.png" width="260"/>
+<video src="media/afl-demo.mp4" width="720" controls poster="screenshots/Home.png"></video>  
 
-# &nbsp; <img src="screenshots/Create%20Player.png" width="260"/>
+If your browser doesn’t show the player, view/download directly: **[media/afl-demo.mp4](media/afl-demo.mp4)**
 
-# </p>
+---
 
-# <p align="center">
+## 🧱 Project Structure (high-level)
 
-# &nbsp; <img src="screenshots/Manage%20Team%20%26%20Lineups.png" width="260"/>
+lib/
+  constants/
+  controller/        # screens & controllers (home, live_score, etc.)
+  models/            # data models, firebase manager
+  services/          # notification_service.dart
+  main.dart
 
-# &nbsp; <img src="screenshots/Create%20Match.png" width="260"/>
+---
 
-# &nbsp; <img src="screenshots/Match%20Preview.png" width="260"/>
+## 🛠️ Build APK
+~~~bash
+flutter build apk --release
+~~~
+Output: `build/app/outputs/flutter-apk/app-release.apk`
 
-# </p>
+---
 
-# <p align="center">
-
-# &nbsp; <img src="screenshots/Match%20Details.png" width="260"/>
-
-# &nbsp; <img src="screenshots/Match%20Completed.png" width="260"/>
-
-# &nbsp; <img src="screenshots/Matches%20Result.png" width="260"/>
-
-# </p>
-
-# <p align="center">
-
-# &nbsp; <img src="screenshots/Recent%20Matches.png" width="260"/>
-
-# &nbsp; <img src="screenshots/Compare%20Players%20%26%20Teams.png" width="260"/>
-
-# &nbsp; <img src="screenshots/Teams%20Compersion.png" width="260"/>
-
-# </p>
-
-# 
-
-# > Extra:  
-
-# > `screenshots/4%20Quater%20System.png` and `screenshots/Players%20Compersion.png` are also available.
-
-# 
-
-# \## Run locally
-
-# ```bash
-
-# flutter pub get
-
-# flutter run
-
-# 
-
+## 📄 License
+This project is licensed under the **MIT License** – see [LICENSE](LICENSE).
