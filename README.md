@@ -43,28 +43,28 @@ flutter run
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/Home.png" width="210" alt="Home"/><div><sub>Home.png</sub></div></td>
-    <td align="center"><img src="screenshots/Create%20Team.png" width="210" alt="Create Team"/><div><sub>Create Team.png</sub></div></td>
-    <td align="center"><img src="screenshots/Create%20Player.png" width="210" alt="Create Player"/><div><sub>Create Player.png</sub></div></td>
-    <td align="center"><img src="screenshots/Manage%20Team%20%26%20Lineups.png" width="210" alt="Manage Team & Lineups"/><div><sub>Manage Team & Lineups.png</sub></div></td>
+    <td align="center"><img src="screenshots/home.png" width="210" alt="home"/><div><sub>home.png</sub></div></td>
+    <td align="center"><img src="screenshots/create_team.png" width="210" alt="create_team"/><div><sub>create_team.png</sub></div></td>
+    <td align="center"><img src="screenshots/create_player.png" width="210" alt="create_player"/><div><sub>create_player.png</sub></div></td>
+    <td align="center"><img src="screenshots/manage_team_and_lineups.png" width="210" alt="manage_team_and_lineups"/><div><sub>manage_team_and_lineups.png</sub></div></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/Create%20Match.png" width="210" alt="Create Match"/><div><sub>Create Match.png</sub></div></td>
-    <td align="center"><img src="screenshots/Match%20Preview.png" width="210" alt="Match Preview"/><div><sub>Match Preview.png</sub></div></td>
-    <td align="center"><img src="screenshots/Match%20Details.png" width="210" alt="Match Details"/><div><sub>Match Details.png</sub></div></td>
-    <td align="center"><img src="screenshots/Match%20Completed.png" width="210" alt="Match Completed"/><div><sub>Match Completed.png</sub></div></td>
+    <td align="center"><img src="screenshots/create_match.png" width="210" alt="create_match"/><div><sub>create_match.png</sub></div></td>
+    <td align="center"><img src="screenshots/match_preview.png" width="210" alt="match_preview"/><div><sub>match_preview.png</sub></div></td>
+    <td align="center"><img src="screenshots/match_details.png" width="210" alt="match_details"/><div><sub>match_details.png</sub></div></td>
+    <td align="center"><img src="screenshots/match_completed.png" width="210" alt="match_completed"/><div><sub>match_completed.png</sub></div></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/Matches%20Result.png" width="210" alt="Matches Result"/><div><sub>Matches Result.png</sub></div></td>
-    <td align="center"><img src="screenshots/Recent%20Matches.png" width="210" alt="Recent Matches"/><div><sub>Recent Matches.png</sub></div></td>
-    <td align="center"><img src="screenshots/Compare%20Players%20%26%20Teams.png" width="210" alt="Compare Players & Teams"/><div><sub>Compare Players & Teams.png</sub></div></td>
+    <td align="center"><img src="screenshots/matches_result.png" width="210" alt="matches_result"/><div><sub>matches_result.png</sub></div></td>
+    <td align="center"><img src="screenshots/recent_matches.png" width="210" alt="recent_matches"/><div><sub>recent_matches.png</sub></div></td>
+    <td align="center"><img src="screenshots/compare_players_and_teams.png" width="210" alt="compare_players_and_teams"/><div><sub>compare_players_and_teams.png</sub></div></td>
     <td align="center"><img src="screenshots/Teams%20Compersion.png" width="210" alt="Teams Compersion"/><div><sub>Teams Compersion.png</sub></div></td>
   </tr>
   <tr>
     <td align="center"><img src="screenshots/Players%20Compersion.png" width="210" alt="Players Compersion"/><div><sub>Players Compersion.png</sub></div></td>
     <td align="center"><img src="screenshots/4%20Quater%20System.png" width="210" alt="4 Quater System"/><div><sub>4 Quater System.png</sub></div></td>
-    <td align="center"><img src="screenshots/Add%20Profile%20Photo.png" width="210" alt="Add Profile Photo"/><div><sub>Add Profile Photo.png</sub></div></td>
-    <td align="center"><img src="screenshots/Delete%20Team.png" width="210" alt="Delete Team"/><div><sub>Delete Team.png</sub></div></td>
+    <td align="center"><img src="screenshots/add_profile_photo.png" width="210" alt="add_profile_photo"/><div><sub>add_profile_photo.png</sub></div></td>
+    <td align="center"><img src="screenshots/delete_team.png" width="210" alt="delete_team"/><div><sub>delete_team.png</sub></div></td>
   </tr>
 </table>
 
