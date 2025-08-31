@@ -1,16 +1,86 @@
-# afl
+# \# AFL Stats App (Flutter)
 
-A new Flutter project.
+# 
 
-## Getting Started
+# A match statistics app to manage teams \& lineups, start matches, live-score events, review past matches, and compare players/teams.  
 
-This project is a starting point for a Flutter application.
+# Built with \*\*Flutter\*\* + \*\*Firebase\*\*.
 
-A few resources to get you started if this is your first Flutter project:
+# 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# \## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# \- Manage Teams \& Lineups
+
+# \- Start / Resume Match
+
+# \- Live scoring \& match details
+
+# \- Past matches \& results
+
+# \- Compare Players \& Teams
+
+# \- Optional 4-Quarter system
+
+# 
+
+# \## Screenshots
+
+# <p align="center">
+
+# &nbsp; <img src="screenshots/Home.png" width="260"/>
+
+# &nbsp; <img src="screenshots/Create%20Team.png" width="260"/>
+
+# &nbsp; <img src="screenshots/Create%20Player.png" width="260"/>
+
+# </p>
+
+# <p align="center">
+
+# &nbsp; <img src="screenshots/Manage%20Team%20%26%20Lineups.png" width="260"/>
+
+# &nbsp; <img src="screenshots/Create%20Match.png" width="260"/>
+
+# &nbsp; <img src="screenshots/Match%20Preview.png" width="260"/>
+
+# </p>
+
+# <p align="center">
+
+# &nbsp; <img src="screenshots/Match%20Details.png" width="260"/>
+
+# &nbsp; <img src="screenshots/Match%20Completed.png" width="260"/>
+
+# &nbsp; <img src="screenshots/Matches%20Result.png" width="260"/>
+
+# </p>
+
+# <p align="center">
+
+# &nbsp; <img src="screenshots/Recent%20Matches.png" width="260"/>
+
+# &nbsp; <img src="screenshots/Compare%20Players%20%26%20Teams.png" width="260"/>
+
+# &nbsp; <img src="screenshots/Teams%20Compersion.png" width="260"/>
+
+# </p>
+
+# 
+
+# > Extra:  
+
+# > `screenshots/4%20Quater%20System.png` and `screenshots/Players%20Compersion.png` are also available.
+
+# 
+
+# \## Run locally
+
+# ```bash
+
+# flutter pub get
+
+# flutter run
+
+# 
+
