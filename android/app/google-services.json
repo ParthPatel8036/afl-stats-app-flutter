@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "881809193443",
+    "project_id": "afl-flutter-ee8f0",
+    "storage_bucket": "afl-flutter-ee8f0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881809193443:android:f444a1ea06a7b3522b48d6",
+        "android_client_info": {
+          "package_name": "com.example.afl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6aKWWkP4iof7_PnBphWV0cc6hT_rsLlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

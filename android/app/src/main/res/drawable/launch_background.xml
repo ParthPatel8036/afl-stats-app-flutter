@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color -->
+    <item android:drawable="@android:color/white" />
+
+    <!-- Centered icon -->
+    <item>
+        <bitmap
+            android:src="@drawable/splash_icon"
+            android:gravity="center"
+            android:tileMode="disabled" />
+    </item>
+</layer-list>
