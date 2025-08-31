@@ -62,7 +62,10 @@ flutter run
   </tr>
   <tr>
     <td align="center"><img src="screenshots/players_comparison.png" width="210" alt="players_comparison"/><div><sub>players_comparison.png</sub></div></td>
-    <td align="center"><img src="screenshots/4_quater_system.png" width="210" alt="4_quater_system"/><div><sub>4_quater_system.png</sub></div></td>
+<td align="center">
+  <img src="https://raw.githubusercontent.com/ParthPatel8036/afl-stats-app-Flutter/main/screenshots/4_quater_system.png" width="210" alt="4_quater_system"/>
+  <div><sub>4_quater_system.png</sub></div>
+</td>
     <td align="center"><img src="screenshots/add_profile_photo.png" width="210" alt="add_profile_photo"/><div><sub>add_profile_photo.png</sub></div></td>
     <td align="center"><img src="screenshots/delete_team.png" width="210" alt="delete_team"/><div><sub>delete_team.png</sub></div></td>
   </tr>
