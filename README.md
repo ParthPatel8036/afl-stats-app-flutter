@@ -43,7 +43,7 @@ flutter run
 
 <table>
   <tr>
-    <td align="center"><img src="screenshots/home.png" width="210" alt="home"/><div><sub>home.png</sub></div></td>
+    <td align="center"><img src="screenshots/Home.png" width="210" alt="home"/><div><sub>Home.png</sub></div></td>
     <td align="center"><img src="screenshots/create_team.png" width="210" alt="create_team"/><div><sub>create_team.png</sub></div></td>
     <td align="center"><img src="screenshots/create_player.png" width="210" alt="create_player"/><div><sub>create_player.png</sub></div></td>
     <td align="center"><img src="screenshots/manage_team_and_lineups.png" width="210" alt="manage_team_and_lineups"/><div><sub>manage_team_and_lineups.png</sub></div></td>
@@ -58,15 +58,16 @@ flutter run
     <td align="center"><img src="screenshots/matches_result.png" width="210" alt="matches_result"/><div><sub>matches_result.png</sub></div></td>
     <td align="center"><img src="screenshots/recent_matches.png" width="210" alt="recent_matches"/><div><sub>recent_matches.png</sub></div></td>
     <td align="center"><img src="screenshots/compare_players_and_teams.png" width="210" alt="compare_players_and_teams"/><div><sub>compare_players_and_teams.png</sub></div></td>
-    <td align="center"><img src="screenshots/teams_comparsion.png" width="210" alt="Teams Compersion"/><div><sub>Teams Comparsion.png</sub></div></td>
+    <td align="center"><img src="screenshots/teams_comparison.png" width="210" alt="teams_comparison"/><div><sub>teams_comparison.png</sub></div></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/players_comparsion.png" width="210" alt="Players Compersion"/><div><sub>Players Comparsion.png</sub></div></td>
-    <td align="center"><img src="screenshots/4_quater_system.png" width="210" alt="4 Quater System"/><div><sub>4 Quater System.png</sub></div></td>
+    <td align="center"><img src="screenshots/players_comparison.png" width="210" alt="players_comparison"/><div><sub>players_comparison.png</sub></div></td>
+    <td align="center"><img src="screenshots/4_quater_system.png" width="210" alt="4_quater_system"/><div><sub>4_quater_system.png</sub></div></td>
     <td align="center"><img src="screenshots/add_profile_photo.png" width="210" alt="add_profile_photo"/><div><sub>add_profile_photo.png</sub></div></td>
     <td align="center"><img src="screenshots/delete_team.png" width="210" alt="delete_team"/><div><sub>delete_team.png</sub></div></td>
   </tr>
 </table>
+
 
 ---
 
